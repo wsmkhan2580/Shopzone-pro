@@ -2,7 +2,7 @@ import React, { useState } from "react";
 import { useNavigate } from "react-router-dom";
 import { FiShoppingCart, FiStar, FiCheck } from "react-icons/fi";
 import { useCart } from "../contexts/CartContext";
-import { formatCurrency } from "../utils/formatCurrency";
+import { formatCurrency } from "../utils/FormatCurrency";
 
 export default function ProductCard({ product }) {
   const navigate = useNavigate();
